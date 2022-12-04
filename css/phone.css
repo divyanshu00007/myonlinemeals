@@ -1,0 +1,66 @@
+@media only screen and (max-width:900px){
+   
+  #navbar{
+      flex-direction: column;
+  }
+
+
+  #navbar ul li a{
+      font-size: 1rem;
+      padding: 0 5px;
+  }
+
+  #navbar ul{
+      padding-bottom: 6pxpx;
+  }
+
+  .btn{
+      font-size: 12px;
+      padding: 4px 8px;
+  }
+#home{
+    height: 200px;
+    padding: 0 6px;
+
+
+}
+#home::before{
+    height: 300px;
+
+}
+ .h-primary{
+     font-size: 26px;
+ }
+
+.h-secondary{
+    font-size: 1rem;
+}
+#home p{
+font-size: 15px;
+
+}
+#services{
+    flex-direction: column;
+    margin: 10px 15px;
+}
+#services .box img {
+    height: 100px;
+
+}
+.clients{
+    flex-wrap: wrap;
+}
+#client-section {
+    height: 222px;
+   
+}
+.client-item img{
+    height: 40px;
+}
+.client-item{
+    padding: 20px;
+}
+
+
+
+}
